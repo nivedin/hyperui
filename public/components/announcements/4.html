@@ -1,7 +1,15 @@
 <!-- This component uses Swiper JS - https://swiperjs.com/ -->
 
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  rel="stylesheet"
+  crossorigin="anonymous"
+/>
+
+<script
+  src="https://unpkg.com/swiper/swiper-bundle.min.js"
+  crossorigin="anonymous"
+></script>
 
 <div class="p-3 text-center bg-gray-100">
   <div class="flex items-center justify-center max-w-3xl mx-auto">
@@ -11,31 +19,46 @@
     >
       <span class="sr-only"> Previous Slide </span>
 
-      <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-        <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+      <svg
+        class="w-5 h-5"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clip-rule="evenodd"
+        />
       </svg>
     </button>
 
     <div class="swiper">
       <ul class="swiper-wrapper">
         <li class="swiper-slide">
-          <a class="text-sm font-medium underline underline-offset-1" href="/collections/new-2022-xyz">
-            New 2022 Releases from XYZ
-            &rarr;
+          <a
+            class="text-sm font-medium underline underline-offset-1"
+            href="/collections/new-2022-xyz"
+          >
+            New 2022 Releases from XYZ &rarr;
           </a>
         </li>
 
         <li class="swiper-slide">
-          <a class="text-sm font-medium underline underline-offset-1" href="/blogs/latest-trends-spring-2022">
-            The Latest Trends for Spring 2022
-            &rarr;
+          <a
+            class="text-sm font-medium underline underline-offset-1"
+            href="/blogs/latest-trends-spring-2022"
+          >
+            The Latest Trends for Spring 2022 &rarr;
           </a>
         </li>
 
         <li class="swiper-slide">
-          <a class="text-sm font-medium underline underline-offset-1" href="/pages/jan-2022-competition">
-            Win £100 Gift Voucher
-            &rarr;
+          <a
+            class="text-sm font-medium underline underline-offset-1"
+            href="/pages/jan-2022-competition"
+          >
+            Win £100 Gift Voucher &rarr;
           </a>
         </li>
       </ul>
@@ -46,8 +69,17 @@
       type="button"
     >
       <span class="sr-only"> Next Slide </span>
-      <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      <svg
+        class="w-5 h-5"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
       </svg>
     </button>
   </div>
@@ -61,7 +93,7 @@
     fadeEffect: { crossFade: true },
     navigation: {
       prevEl: '.swiper-prev-button',
-      nextEl: '.swiper-next-button'
-    }
+      nextEl: '.swiper-next-button',
+    },
   })
 </script>
